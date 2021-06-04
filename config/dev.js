@@ -5,4 +5,5 @@ module.exports = {
   mongoURI:
     'mongodb://sdawes:M9B1ukOjXq3HN8N1@cluster0-shard-00-00.643e5.mongodb.net:27017,cluster0-shard-00-01.643e5.mongodb.net:27017,cluster0-shard-00-02.643e5.mongodb.net:27017/myFirstDatabase?ssl=true&replicaSet=atlas-nytfhu-shard-0&authSource=admin&retryWrites=true&w=majority',
   cookieKey: '123123123',
+  redisUrl: 'redis://127.0.0.1:6379',
 };
