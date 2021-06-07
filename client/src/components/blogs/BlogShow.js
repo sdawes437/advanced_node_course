@@ -15,6 +15,7 @@ class BlogShow extends Component {
             'https://nodecourse-blog-bucket.s3.eu-west-2.amazonaws.com/' +
             this.props.blog.imageUrl
           }
+          alt="blogImage"
         />
       );
     }
